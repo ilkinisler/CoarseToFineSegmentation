@@ -8,11 +8,17 @@ This repository implements a two-stage segmentation framework for lung tumors in
 
 CoarseToFineSegmentation/
 ├── src/
+
 │ ├── data/ # Loading and preprocessing
+
 │ ├── models/ # Training scripts (e.g., Swin UNETR)
+
 │ ├── postprocessing/ # Anatomical filtering, lung masks
+
 │ └── utils/ # Metrics, helpers
+
 ├── scripts/ # (Optional) Run pipeline wrapper
+
 ├── requirements.txt
 
 ---

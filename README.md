@@ -2,8 +2,6 @@
 
 This repository implements a two-stage segmentation framework for lung tumors in CT scans, combining uncertainty modeling and anatomically informed post-processing. The pipeline includes coarse full-volume segmentation followed by refined ROI-based segmentation, and is designed for robust and interpretable results.
 
----
-
 ## Features
 
 - **Two-stage cascade**: Coarse-to-fine segmentation for improved accuracy
@@ -11,8 +9,6 @@ This repository implements a two-stage segmentation framework for lung tumors in
 - **Anatomy-aware filtering**: Lung overlap and surface-based post-processing
 - **Support for multiple models**: Swin UNETR, UNETR, UNet
 - **Evaluation metrics**: Dice, HD95, boundary Dice
-
----
 
 ## Citation
 

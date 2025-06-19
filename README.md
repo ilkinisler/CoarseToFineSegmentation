@@ -18,7 +18,7 @@ This repository implements a two-stage segmentation framework for lung tumors in
 
 If you use this codebase, please cite:
 
-@article{isler2025coarse2fine,
+@article{isler2025uncertainty,
   title={Uncertainty-Guided Coarse-to-Fine Tumor Segmentation with Anatomy-Aware Post-Processing},
   author={Isler, Ilkin Sevgi and Mohaisen, David and Lisle, Curtis and Turgut, Damla and Bagci, Ulas},
   journal={arXiv preprint arXiv:2504.12215},

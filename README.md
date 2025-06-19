@@ -1,10 +1,10 @@
-# 🧠 Coarse-to-Fine Tumor Segmentation with Uncertainty and Anatomical Post-Processing
+# Coarse-to-Fine Tumor Segmentation with Uncertainty and Anatomical Post-Processing
 
 This repository implements a two-stage segmentation framework for lung tumors in CT scans, combining uncertainty modeling and anatomically informed post-processing. The pipeline includes coarse full-volume segmentation followed by refined ROI-based segmentation, and is designed for robust and interpretable results.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 CoarseToFineSegmentation/
 ├── src/
@@ -15,12 +15,9 @@ CoarseToFineSegmentation/
 ├── scripts/ # (Optional) Run pipeline wrapper
 ├── requirements.txt
 
-
-
-
 ---
 
-## 🚀 Features
+## Features
 
 - **Two-stage cascade**: Coarse-to-fine segmentation for improved accuracy
 - **Uncertainty-aware loss**: Adaptive training for boundary calibration
@@ -30,17 +27,8 @@ CoarseToFineSegmentation/
 
 ---
 
-## 🧪 Setup
+## Citation
 
-```bash
-git clone https://github.com/ilkinisler/CoarseToFineSegmentation.git
-cd CoarseToFineSegmentation
-conda create -n c2f-seg python=3.9
-conda activate c2f-seg
-pip install -r requirements.txt
-
-
-Citation
 If you use this codebase, please cite:
 
 @inproceedings{isler2025coarse2fine,
